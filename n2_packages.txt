@@ -1,0 +1,16 @@
+fbi
+git
+mpg123
+mpv
+vlc
+sshpass
+libglvnd-dev
+libegl1
+libgles1
+libgles2
+libgl1-mesa-dev
+bluez
+alsa-base
+pulseaudio
+libncurses5-dev
+bc

@@ -1,0 +1,10 @@
+fbi
+git
+mpg123
+sshpass
+bluez
+pulseaudio
+libncurses5-dev
+bc
+pavucontrol
+libsamplerate0-dev
