@@ -911,6 +911,9 @@ git clone --depth 1 https://github.com/Retro-Arena/bgm.git RetroArena/bgm
 rm -rf RetroArena/bgm/.git
 rm -rf RetroArena/bgm/.gitattributes
 
+# make esdir
+mkdir /home/pigaming/.emulationstation/themes
+
 # copy configs
 sudo cp /home/pigaming/RetroArena-Setup/configs/all/autostart.sh /opt/retroarena/configs/all/autostart.sh
 sudo cp /home/pigaming/RetroArena-Setup/configs/all/launching.png /opt/retroarena/configs/all/launching.png

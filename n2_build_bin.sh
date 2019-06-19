@@ -464,6 +464,9 @@ tar -xzf n2_mali.tar.gz
 rm -rf n2_mali.tar.gz
 cd mali && sudo ./install.sh && cd ~
 
+# make esdir
+mkdir /home/pigaming/.emulationstation/themes
+
 # copy configs
 sudo cp /home/pigaming/RetroArena-Setup/configs/all/autostart.sh /opt/retroarena/configs/all/autostart.sh
 sudo cp /home/pigaming/RetroArena-Setup/configs/all/launching.png /opt/retroarena/configs/all/launching.png
