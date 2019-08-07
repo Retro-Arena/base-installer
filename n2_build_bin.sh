@@ -471,10 +471,11 @@ rm -rf RetroArena/bgm/.git
 rm -rf RetroArena/bgm/.gitattributes
 
 # install mali
-cd /home/pigaming
-wget https://raw.githubusercontent.com/Retro-Arena/base-installer/master/n2_mali.tar.gz
-tar -xzf n2_mali.tar.gz
-rm -rf n2_mali.tar.gz
+mkdir /home/pigaming/mali
+wget https://github.com/Retro-Arena/base-installer/raw/master/n2_fixmali.sh
+mv n2_fixmali.sh install.sh
+dos2unix install.sh
+chmod a+x install.sh
 cd mali && sudo ./install.sh && cd ~
 
 # make esdir
