@@ -439,6 +439,7 @@ sudo __nodialog=1 ./retroarena_packages.sh lr-quasi88 sources
 sudo __nodialog=1 ./retroarena_packages.sh lr-quasi88 build
 sudo __nodialog=1 ./retroarena_packages.sh lr-quasi88 install
 sudo __nodialog=1 ./retroarena_packages.sh lr-quasi88 configure
+sudo __nodialog=1 ./retroarena_packages.sh lr-quasi88 clean
 sudo __nodialog=1 ./retroarena_packages.sh lr-quicknes depends
 sudo __nodialog=1 ./retroarena_packages.sh lr-quicknes sources
 sudo __nodialog=1 ./retroarena_packages.sh lr-quicknes build
@@ -949,6 +950,7 @@ rm -rf RetroArena/bgm/.gitattributes
 
 # install mali
 mkdir /home/pigaming/mali
+cd /home/pigaming/mali
 wget https://github.com/Retro-Arena/base-installer/raw/master/n2_fixmali.sh
 mv n2_fixmali.sh install.sh
 dos2unix install.sh

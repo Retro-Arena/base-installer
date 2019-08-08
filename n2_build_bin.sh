@@ -472,6 +472,7 @@ rm -rf RetroArena/bgm/.gitattributes
 
 # install mali
 mkdir /home/pigaming/mali
+cd /home/pigaming/mali
 wget https://github.com/Retro-Arena/base-installer/raw/master/n2_fixmali.sh
 mv n2_fixmali.sh install.sh
 dos2unix install.sh
