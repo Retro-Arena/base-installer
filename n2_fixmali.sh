@@ -9,6 +9,7 @@
 # at https://raw.githubusercontent.com/Retro-Arena/RetroArena-Setup/master/LICENSE.md
 #
 
+apt-get -qq update
 apt-get -qq purge mali-fbdev
 apt-get -qq -y install mesa-common-dev libegl1-mesa-dev libgles2-mesa-dev
 apt-get -qq download mali-fbdev >/dev/null 2>&1
